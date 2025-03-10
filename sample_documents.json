@@ -1,0 +1,27 @@
+[
+  {
+    "id": "doc1",
+    "title": "Weather API Documentation",
+    "content": "OpenWeatherMap API provides current weather data, forecast, and historical weather data. To use the API, you need to register for an API key at openweathermap.org. The basic endpoint for current weather is api.openweathermap.org/data/2.5/weather?q={city}&appid={API key}."
+  },
+  {
+    "id": "doc2",
+    "title": "Python Requests Library",
+    "content": "The requests library is a popular HTTP client for Python. It allows you to send HTTP requests using Python and is used extensively for API interactions. You can install it using pip: pip install requests."
+  },
+  {
+    "id": "doc3",
+    "title": "JSON Parsing in Python",
+    "content": "Python has built-in support for JSON through the json module. You can parse JSON responses from APIs using json.loads() to convert JSON strings to Python dictionaries."
+  },
+  {
+    "id": "doc4",
+    "title": "Error Handling in API Requests",
+    "content": "When making API requests, it's important to handle errors properly. Use try-except blocks to catch exceptions and check response status codes to ensure successful API calls."
+  },
+  {
+    "id": "doc5",
+    "title": "Weather Data Visualization",
+    "content": "After fetching weather data from an API, you can visualize it using libraries like matplotlib or plotly. These libraries allow you to create charts and graphs to display temperature, humidity, and other weather metrics."
+  }
+]
